@@ -47,7 +47,7 @@ export const INITIAL_PROJECTS: Project[] = [
     projectType: 'Personal Venture',
     status: 'Live',
     description:
-      'A business and media ecosystem supporting entrepreneurs, startups, creators, learning, community, promotion, and growth opportunities.',,
+      'A business and media ecosystem supporting entrepreneurs, startups, creators, learning, community, promotion, and growth opportunities.',
     detailedDescription:
       'Conceived as a business-focused digital media platform rather than entertainment streaming, Bethelin Covibe TV brings together founders, digital operators, and innovators to share operational knowledge, discover business partners, and promote digital products.',
     technologies: ['Web Architecture', 'Video Distribution', 'Community Engine', 'UI/UX Design'],
@@ -67,7 +67,7 @@ export const INITIAL_PROJECTS: Project[] = [
     projectType: 'Personal Venture',
     status: 'Live',
     description:
-      'A business advertising and promotion platform designed to connect advertisers, business visibility, and promotional opportunities.',,
+      'A business advertising and promotion platform designed to connect advertisers, business visibility, and promotional opportunities.',
     detailedDescription:
       'An advertising technology concept focusing on transparent, high-visibility promotional opportunities for small and mid-market businesses seeking affordable, targeted reach across digital touchpoints.',
     technologies: ['AdTech Architecture', 'Campaign Manager', 'Analytics Engine', 'TypeScript'],

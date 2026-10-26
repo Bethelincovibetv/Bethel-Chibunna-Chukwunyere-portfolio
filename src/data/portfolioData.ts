@@ -44,39 +44,41 @@ export const INITIAL_PROJECTS: Project[] = [
     id: 'bethelin-covibe-tv',
     title: 'Bethelin Covibe TV',
     category: 'Digital Business Platform',
-    projectType: 'Concept Prototype',
-    status: 'Concept',
+    projectType: 'Personal Venture',
+    status: 'Live',
     description:
-      'A business and media ecosystem concept supporting entrepreneurs, startups, creators, learning, community, promotion, and growth opportunities.',
+      'A business and media ecosystem supporting entrepreneurs, startups, creators, learning, community, promotion, and growth opportunities.',,
     detailedDescription:
       'Conceived as a business-focused digital media platform rather than entertainment streaming, Bethelin Covibe TV brings together founders, digital operators, and innovators to share operational knowledge, discover business partners, and promote digital products.',
     technologies: ['Web Architecture', 'Video Distribution', 'Community Engine', 'UI/UX Design'],
     image: '',
     featured: true,
     highlights: [
-      'Dedicated business media hubs and curated knowledge channels',
+      'Business media, learning, community, and promotion opportunities',
       'Startup and creator showcase modules with partner discovery',
-      'Live masterclasses, founder interviews, and community networking',
+      'Entrepreneur-focused growth and networking features',
     ],
+    demoUrl: 'https://bethelincovibetv.com.ng/',
   },
   {
     id: 'ggd-ad-network',
     title: 'GGD Ad Network',
     category: 'Advertising Technology',
-    projectType: 'Concept Prototype',
-    status: 'Concept',
+    projectType: 'Personal Venture',
+    status: 'Live',
     description:
-      'A business advertising and promotion platform concept designed to connect advertising activities, business visibility, and promotional opportunities.',
+      'A business advertising and promotion platform designed to connect advertisers, business visibility, and promotional opportunities.',,
     detailedDescription:
       'An advertising technology concept focusing on transparent, high-visibility promotional opportunities for small and mid-market businesses seeking affordable, targeted reach across digital touchpoints.',
     technologies: ['AdTech Architecture', 'Campaign Manager', 'Analytics Engine', 'TypeScript'],
     image: '',
     featured: false,
     highlights: [
-      'Unified campaign management for digital promotional campaigns',
-      'Clear tracking of reach, impressions, and engagement metrics',
-      'Accessible promotion mechanisms built for emerging enterprises',
+      'Campaign management for digital promotional campaigns',
+      'Business visibility and promotional opportunities',
+      'Accessible promotion mechanisms for emerging enterprises',
     ],
+    demoUrl: 'https://ggdadnetwork.com.ng/',
   },
   {
     id: 'hustlepro-ai',
@@ -101,10 +103,10 @@ export const INITIAL_PROJECTS: Project[] = [
     id: 'diamond-kpi',
     title: 'Diamond KPI',
     category: 'Business Analytics',
-    projectType: 'Concept Prototype',
-    status: 'Concept',
+    projectType: 'Personal Venture',
+    status: 'Live',
     description:
-      'A KPI and business metrics dashboard project providing executive overview and metric tracking for operational health.',
+      'A KPI and business metrics dashboard project providing an executive overview and metric tracking for operational health.',
     detailedDescription:
       'A clean dashboard prototype engineered to present core business indicators without data clutter, featuring responsive charts, target thresholds, and intuitive performance cards.',
     technologies: ['Dashboard UI', 'Data Visualization', 'TypeScript', 'Tailwind CSS'],
@@ -112,9 +114,10 @@ export const INITIAL_PROJECTS: Project[] = [
     featured: false,
     highlights: [
       'Minimalist metric cards with target progress indicators',
-      'Real-time filter controls by period and department',
-      'Modular layout for revenue, customer retention, and project velocity',
+      'Performance overview and KPI tracking',
+      'Modular layout for business metrics',
     ],
+    demoUrl: 'https://diamond-kpi.vercel.app/',
   },
   {
     id: 'farm-market-express',
@@ -137,7 +140,8 @@ export const INITIAL_PROJECTS: Project[] = [
       'Installable mobile PWA with push notifications',
       'Admin broadcast notifications',
     ],
-    liveUrl: 'https://www.farmmarketexpressltd.com.ng/',
+    demoUrl: 'https://www.farmmarketexpressltd.com.ng/',
+    videoUrl: 'https://youtu.be/Cab1lW0gpgs',
   },
 
 ];

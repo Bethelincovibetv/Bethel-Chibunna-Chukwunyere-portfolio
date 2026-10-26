@@ -79,7 +79,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
           <div className="flex items-center gap-2">
             <button
               onClick={() => setIsEditing(!isEditing)}
-              className={`p-1.5 rounded-lg border text-xs flex items-center gap-1.5 transition-colors ${
+              className={`hidden p-1.5 rounded-lg border text-xs flex items-center gap-1.5 transition-colors ${
                 isEditing
                   ? 'bg-[#E67E22] text-white border-[#E67E22]'
                   : theme === 'dark'

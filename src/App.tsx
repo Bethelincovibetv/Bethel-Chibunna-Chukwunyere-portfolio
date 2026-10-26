@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Services } from './components/Services';
 import { Projects } from './components/Projects';
+import { AIVideoShowcase } from './components/AIVideoShowcase';
 import { WorkProcess } from './components/WorkProcess';
 import { WhyWorkWithMe } from './components/WhyWorkWithMe';
 import { Skills } from './components/Skills';
@@ -226,6 +227,8 @@ export default function App() {
           onAddProject={handleAddProject}
           t={t}
         />
+
+        <AIVideoShowcase theme={theme} />
 
         <WorkProcess
           theme={theme}

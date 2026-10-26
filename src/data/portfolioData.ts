@@ -124,7 +124,7 @@ export const INITIAL_PROJECTS: Project[] = [
     title: 'Farm Market Express',
     category: 'Apps & Digital Projects',
     projectType: 'Client Project',
-    status: 'Completed',
+    status: 'Live',
     description:
       'An on-demand grocery shopping and delivery web app that helps customers order fresh foodstuff without going to the market themselves.',
     detailedDescription:

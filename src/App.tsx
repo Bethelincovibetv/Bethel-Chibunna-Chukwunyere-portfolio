@@ -64,7 +64,17 @@ export default function App() {
   const [projects, setProjects] = useState<Project[]>(() => {
     try {
       const saved = localStorage.getItem('bc_projects');
-      return saved ? JSON.parse(saved) : INITIAL_PROJECTS;
+      if (!saved) return INITIAL_PROJECTS;
+      const savedProjects = JSON.parse(saved) as Project[];
+      // Refresh official projects while preserving user-created custom projects.
+      const refreshedProjects = INITIAL_PROJECTS.map((initialProject) => {
+        const savedProject = savedProjects.find((item) => item.id === initialProject.id);
+        return savedProject ? { ...savedProject, ...initialProject } : initialProject;
+      });
+      const customProjects = savedProjects.filter(
+        (savedProject) => !INITIAL_PROJECTS.some((initialProject) => initialProject.id === savedProject.id),
+      );
+      return [...refreshedProjects, ...customProjects];
     } catch {
       return INITIAL_PROJECTS;
     }

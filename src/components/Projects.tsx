@@ -153,7 +153,7 @@ export const Projects: React.FC<ProjectsProps> = ({
           {/* Quick Add Project action */}
           <button
             onClick={handleAddNewProject}
-            className={`self-start md:self-auto inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold border transition-colors ${
+            className={`hidden self-start md:self-auto inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold border transition-colors ${
               theme === 'dark'
                 ? 'border-[#2E333F] text-gray-300 hover:text-white hover:bg-[#111318]'
                 : 'border-gray-300 text-gray-700 hover:bg-gray-100'

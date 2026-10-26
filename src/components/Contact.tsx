@@ -177,7 +177,7 @@ export const Contact: React.FC<ContactProps> = ({
 
                 <button
                   onClick={() => setIsEditingConfig(!isEditingConfig)}
-                  className={`p-1.5 rounded-lg border text-xs flex items-center gap-1 transition-colors ${
+                  className={`hidden p-1.5 rounded-lg border text-xs flex items-center gap-1 transition-colors ${
                     isEditingConfig
                       ? 'bg-[#E67E22] text-white border-[#E67E22]'
                       : theme === 'dark'

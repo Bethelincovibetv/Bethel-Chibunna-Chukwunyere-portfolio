@@ -367,6 +367,21 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
                 </div>
               </div>
 
+              {project.id === 'farm-market-express' && (
+                <div className="w-full overflow-hidden rounded-xl border border-[#2E333F]">
+                  <div className="aspect-video">
+                    <iframe
+                      className="h-full w-full"
+                      src="https://www.youtube-nocookie.com/embed/Cab1lW0gpgs"
+                      title="Farm Market Express project video"
+                      loading="lazy"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    />
+                  </div>
+                </div>
+              )}
+
               {/* External Links */}
               <div
                 className={`flex flex-wrap items-center gap-3 pt-3 border-t ${

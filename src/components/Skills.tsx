@@ -101,7 +101,7 @@ export const Skills: React.FC<SkillsProps> = ({ theme, skills, onUpdateSkills, t
               setEditingList([...skills]);
               setIsManaging(!isManaging);
             }}
-            className={`self-start md:self-auto inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold border transition-colors ${
+            className={`hidden self-start md:self-auto inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold border transition-colors ${
               isManaging
                 ? 'bg-[#E67E22] text-white border-[#E67E22]'
                 : theme === 'dark'

@@ -1,0 +1,5 @@
+# Robots.txt for Bethel Chukwunyere Portfolio
+User-agent: *
+Allow: /
+
+Sitemap: https://bethelchukwunyere.com/sitemap.xml

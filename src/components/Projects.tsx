@@ -46,10 +46,19 @@ export const Projects: React.FC<ProjectsProps> = ({
     'Apps & Digital Projects',
   ];
 
+  // Lead with completed, live work; keep featured projects ahead within each status.
+  const orderedProjects = [...projects].sort((a, b) => {
+    const statusRank: Record<ProjectStatus, number> = { Live: 0, 'In Development': 1, Concept: 2 };
+    const statusDifference = statusRank[a.status] - statusRank[b.status];
+    if (statusDifference !== 0) return statusDifference;
+    if (Boolean(a.featured) !== Boolean(b.featured)) return a.featured ? -1 : 1;
+    return 0;
+  });
+
   const filteredProjects =
     selectedCategory === 'All'
-      ? projects
-      : projects.filter((p) => p.category === selectedCategory);
+      ? orderedProjects
+      : orderedProjects.filter((p) => p.category === selectedCategory);
 
   const getCategoryCount = (cat: ProjectCategory) => {
     if (cat === 'All') return projects.length;

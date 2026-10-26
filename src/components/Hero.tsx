@@ -198,7 +198,7 @@ export const Hero: React.FC<HeroProps> = ({ theme, profileImage, onUpdateProfile
                   <button
                     onClick={() => setIsEditingImage(true)}
                     title={t.hero.changePortrait}
-                    className="absolute top-3 right-3 p-2 rounded-lg bg-black/60 backdrop-blur-md text-white/90 hover:text-white hover:bg-black/90 border border-white/10 transition-colors text-xs flex items-center gap-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E67E22]"
+                    className="hidden absolute top-3 right-3 p-2 rounded-lg bg-black/60 backdrop-blur-md text-white/90 hover:text-white hover:bg-black/90 border border-white/10 transition-colors text-xs flex items-center gap-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E67E22]"
                   >
                     <Edit3 className="w-3.5 h-3.5" />
                     <span className="sr-only">{t.hero.changePortrait}</span>

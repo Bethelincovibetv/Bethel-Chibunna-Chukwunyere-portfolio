@@ -43,6 +43,7 @@ export const Projects: React.FC<ProjectsProps> = ({
     'Advertising Technology',
     'AI Business Tools',
     'Business Analytics',
+    'Apps & Digital Projects',
   ];
 
   const filteredProjects =

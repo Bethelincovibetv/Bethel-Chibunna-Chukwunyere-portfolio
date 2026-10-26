@@ -116,6 +116,30 @@ export const INITIAL_PROJECTS: Project[] = [
       'Modular layout for revenue, customer retention, and project velocity',
     ],
   },
+  {
+    id: 'farm-market-express',
+    title: 'Farm Market Express',
+    category: 'Apps & Digital Projects',
+    projectType: 'Client Project',
+    status: 'Completed',
+    description:
+      'An on-demand grocery shopping and delivery web app that helps customers order fresh foodstuff without going to the market themselves.',
+    detailedDescription:
+      'Designed and developed for Farm Market Express, this installable Progressive Web App supports the journey from customer order through transfer confirmation, shopping, packaging, dispatch assignment, and delivery. Customers can receive push notifications and monitor delivery progress with live location tracking. Administrators can send platform-wide notifications, and dispatch riders can receive assigned deliveries.',
+    technologies: ['Progressive Web App (PWA)', 'Order Management', 'Push Notifications', 'Live Location Tracking', 'Dispatch Management'],
+    image: '',
+    featured: true,
+    highlights: [
+      'Customer ordering for fresh foodstuff and order status notifications',
+      'Transfer confirmation before shopping and delivery preparation',
+      'Dispatch portal for assigning delivery jobs to riders',
+      'Live delivery location and progress tracking',
+      'Installable mobile PWA with push notifications',
+      'Admin broadcast notifications',
+    ],
+    liveUrl: 'https://www.farmmarketexpressltd.com.ng/',
+  },
+
 ];
 
 export const INITIAL_SERVICES: ServiceItem[] = [
